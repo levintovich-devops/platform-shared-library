@@ -8,7 +8,8 @@ RUN apt-get update && \
         curl \
         unzip \
         jq \
-        ca-certificates && \
+        ca-certificates \
+        golang-go && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
