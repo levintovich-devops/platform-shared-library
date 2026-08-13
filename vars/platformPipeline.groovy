@@ -1,4 +1,4 @@
-import com.test.Test
+import com.demo.version.VersionInfo
 
 def call() {
     echo "OK"
