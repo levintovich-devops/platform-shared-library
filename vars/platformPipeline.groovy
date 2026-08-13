@@ -1,5 +1,5 @@
-import groovy.transform.Immutable
+import com.platform.jenkins.version.VersionInfo
 
-def call(Map config = [:]) {
-    echo "Step 1"
+def call() {
+    echo "OK"
 }
