@@ -1,4 +1,4 @@
-import com.platform.jenkins.version.VersionInfo
+import Test
 
 def call() {
     echo "OK"
