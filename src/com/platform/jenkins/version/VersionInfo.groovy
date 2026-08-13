@@ -1,4 +1,4 @@
-package com.platform.jenkins.version
+package com.demo.version
 
 import groovy.transform.Immutable
 
