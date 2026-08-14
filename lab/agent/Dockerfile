@@ -9,6 +9,7 @@ RUN apt-get update && \
         unzip \
         jq \
         ca-certificates \
+        gnupg \
         golang-go && \
     install -m 0755 -d /etc/apt/keyrings && \
     curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /etc/apt/keyrings/docker.gpg && \
