@@ -23,4 +23,7 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
+RUN groupadd -g 999 docker || true && \
+    usermod -aG docker jenkins
+    
 USER jenkins
